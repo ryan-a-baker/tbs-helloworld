@@ -7,6 +7,11 @@ const server = http.createServer((req, res) => {
   res.end('Hello World');
 });
 
+process.on('SIGINT', function() {
+  console.log("Caught interrupt signal");
+  process.exit();
+});
+
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
