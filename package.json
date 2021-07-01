@@ -1,22 +1,14 @@
 {
-  "name": "tbs-helloworld",
-  "version": "0.1.0",
-  "description": "Just a demo application for Tanzu Build Service",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Ryan Baker",
+  "dependencies": {
+    "upper-case": "^2.0.2"
   },
+  "description": "Just a demo application for Tanzu Build Service",
+  "license": "Apache-2.0",
+  "name": "tbs-helloworld",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryan-a-baker/tbs-helloworld.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ryan-a-baker/tbs-helloworld/issues"
-  },
-  "homepage": "https://github.com/ryan-a-baker/tbs-helloworld#readme",
-  "dependencies": {
-    "upper-case": "^2.0.2"
-  }
+  "version": "0.1.0"
 }
